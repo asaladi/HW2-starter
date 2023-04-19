@@ -15,7 +15,7 @@ EXE = encrypter
 OBJS = encrypter.o
 CC = gcc
 DEBUG = -g
-WARN = -Wall -Wextra
+WARN = -Wall -Wextra -Werror
 CFLAGS = -I. -std=c11 $(DEBUG) $(WARN)
 LIBS = 
 
