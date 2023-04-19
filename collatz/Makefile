@@ -25,3 +25,6 @@ $(PROG):	$(OBJ) $(LIB)
 	$(CC) $(CFLAGS) $(OBJ) $(LIBFLAGS) -o $@
 
 .phony: clean
+
+clean:
+	rm -f $(PROG) $(OBJ)
